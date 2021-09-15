@@ -81,7 +81,7 @@ body {
   padding: 8px;
   background-color: seagreen;
   overflow: hidden;
-  border-radius: 0px 0px 28px 0px;
+  border-radius: 0 0 28px 0;
 }
   
 .app-bar .app-bar__navigation.open {
@@ -111,7 +111,7 @@ Hero Image
   display: flex;
   align-items: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../public/images/heroes/hero-image_2.jpg");
+    url("../public/images/heroes/hero-image_2-large.jpg");
   width: 100%;
   min-height: 420px;
   position: relative;
