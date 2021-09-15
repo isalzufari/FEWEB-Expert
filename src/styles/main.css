@@ -5,8 +5,6 @@
 body, html, main {
     margin: 0;
     padding: 0;
-    /* width: 100%;
-    height: 100%; */
 }
 
 body {
@@ -19,6 +17,7 @@ body {
  * Drawer
  *
  */
+
 @media screen and (min-width: 600px) {
     #hamburger {
         display: none;
@@ -64,6 +63,10 @@ body {
         font-size: 32px;
         text-decoration: none;
         color: black;
+        display: inline-block;
+        min-width: 44px;
+        min-height: 44px;
+        line-height: 44px;
     }
 }
 
@@ -78,7 +81,6 @@ body {
 }
 
 .header__inner {
-    /* width: 800px; */
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -114,7 +116,6 @@ body {
     display: inline-block;
     width: 24%;
     text-align: center;
-    line-height: 24px;
     padding: 24px;
     text-transform: uppercase;
 }
@@ -122,6 +123,11 @@ body {
 .nav a {
     text-decoration: none;
     color: #616161;
+    font-size: 16px;
+    display: inline-block;
+    min-width: 44px;
+    min-height: 44px;
+    line-height: 44px;
 }
 
 .nav a:hover {
@@ -163,15 +169,6 @@ body {
 }
 
 /*
- * main
- */
-
-/* main {
-    width: 1200px;
-    margin: 0 auto;
-} */
-
-/*
  * content
  */
 
@@ -206,10 +203,7 @@ body {
  */
 
 .post {
-    /* max-width: 1200px; */
-    /* margin: 0 auto; */
     display: grid;
-    /* grid-gap: 1rem; */
     justify-items: center;
 }
 
@@ -255,7 +249,7 @@ body {
 
 .post-item__title {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 16px;
     transition: 0.3s opacity;
 }
@@ -267,6 +261,10 @@ body {
 .post-item__title a {
     text-decoration: none;
     color: inherit;
+    display: inline-block;
+    min-width: 44px;
+    min-height: 44px;
+    line-height: 44px;
 }
 
 .post-item__description {
@@ -306,7 +304,12 @@ footer li {
 
 footer a {
     text-decoration: none;
-    color: #fff
+    color: #fff;
+    display: inline-block;
+    min-width: 44px;
+    min-height: 44px;
+    line-height: 44px;
+    font-size: 16px;
 }
 
  /*
@@ -315,12 +318,14 @@ footer a {
 
 .skip-link {
     position: absolute;
-    top: -40px;
+    top: -60px;
     left: 0;
     background-color: #bf1722;
     color: white;
     padding: 8px;
     z-index: 100;
+    font-size: 18px;
+    line-height: 44px;
 }
 
 .skip-link:focus {

@@ -14,7 +14,7 @@ data.restaurants.forEach((restaurant) => {
         <div class="post-item__content">
             <p class="post-item__date">Rating <span class="post-item__date__author">${restaurant.rating}</span>
             </p>
-            <h1 class="post-item__title"><a href="#">${restaurant.name}</a></h1>
+            <h1 class="post-item__title"><a href="#">${restaurant.name} - ${restaurant.city}</a></h1>
             <p class="post-item__description">${restaurant.description}</p>
         </div>
     </article>
